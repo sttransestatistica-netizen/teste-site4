@@ -260,19 +260,19 @@
               <div style="font-weight: 700; margin-bottom: 5px; text-align: center; color: RED;">Compartilhe:</div>
 
               <div style="display: flex; gap: 10px;">
-                <a href="#" onclick="shareWhatsApp()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
+                <a onclick="shareWhatsApp()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
                   <i class="fab fa-whatsapp" style="font-size: 1.2rem; color: #25d366;"></i>
                 </a>
 
-                <a href="#" onclick="shareFacebook()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
+                <a onclick="shareFacebook()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
                   <i class="fab fa-facebook-f" style="font-size: 1.2rem; color: #3b5998;"></i>
                 </a>
 
-                <a href="#" onclick="shareTelegram()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
+                <a onclick="shareTelegram()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
                   <i class="fab fa-telegram-plane" style="font-size: 1.2rem; color: #0088cc;"></i>
                 </a>
 
-                <a href="#" onclick="shareLinkedIn()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
+                <a onclick="shareLinkedIn()" class="service-card" style="display: flex; align-items: center; justify-content: center; width: 50px; height: 50px; padding: 0;">
                   <i class="fab fa-linkedin-in" style="font-size: 1.2rem; color: #0077b5;"></i>
                 </a>
 
@@ -336,6 +336,7 @@
       fetch("https://sttransestatistica-netizen.github.io/teste-site6/")
         .then(res => res.text())
         .then(data => document.getElementById("footer").innerHTML = data);
+      
       fetch("https://sttransestatistica-netizen.github.io/teste-site7/")
         .then(r => r.text())
         .then(html => {
@@ -344,3 +345,4 @@
     </script>
   </body>
 </html>
+
